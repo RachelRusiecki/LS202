@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(to bottom, #198212, #020e18);
+  background-repeat: no-repeat;
+  color: #b21781;
+  font: normal 18px "Roboto Condensed", sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+  width: 920px;
+}
+
+h1 {
+  background: transparent url("photo_blog_final/logo.png") 0 0 no-repeat;
+  color: #513e7a;
+  float: left;
+  font-size: 36px;
+  font-weight: normal;
+  padding: 45px 0 15px 115px;
+}
+
+nav {
+  float: right;
+  padding: 75px 0 0 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  background: #1212e1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #825ab1;
+  display: block;
+  padding: 10px 40px 14px 40px;
+  text-decoration: none;
+}
+
+nav a.active {
+  background: #52120c;
+  color: #151420;
+}
+
+main {
+  background: #ac2023;
+  box-shadow: 0 5px 5px #e12c15;
+  box-sizing: border-box;
+  clear: both;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+  width: 960px;
+}
+
+img.masthead {
+  margin: 0 0 40px 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+  padding: 0 0 25px 0;
+}
+
+p {
+  padding: 0 0 20px 0;
+}
+
+figure {
+  float: right;
+  padding: 0 0 0 30px;
+}
+
+footer {
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 960px;
+}

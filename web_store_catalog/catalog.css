@@ -1,0 +1,97 @@
+@import url("reset.css");
+
+body {
+  background: #164184;
+  color: #1399c9;
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+header, main {
+  margin: 0 auto 30px auto;
+  width: 900px;
+}
+
+header {
+  background: #5a1212;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 30px 0;
+}
+
+header h1 {
+  color: #161815;
+  font-size: 2.4em;
+  padding: 0 25px;
+}
+
+main {
+  background-color: #d21c20;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+main::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+main h2 {
+  font-size: 2em;
+  padding: 0 0 25px 0;
+}
+
+li {
+  background: #19a211;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 0 2% 2%;
+  padding: 15px;
+  width: 23.5%;
+}
+
+li:nth-of-type(4n+1) {
+  margin-left: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  padding: 0 0 5px 0;
+}
+
+figure {
+  height: 160px;
+  width: 100%;
+}
+
+img {
+  display: block;
+  height: 140px;
+  margin: 0 auto;
+  width: auto;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input:checked + figure img {
+  height: auto;
+  left: 50%;
+  margin: 0 0 0 -200px;
+  position: absolute;
+  top: 100px;
+  width: 400px;
+  z-index: 2;
+}
+
+input:checked + figure::before {
+  background: rgba(85, 129, 116, .4);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
